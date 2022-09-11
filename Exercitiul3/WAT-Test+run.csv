@@ -1,0 +1,183 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,comment,priority,severity,automation,type,tags,step_comments,case_parameter
+1,"Creare cont",Regression,1,"Andreea-Alexandra Vintilescu",77862,Passed,"2022-09-11 20:42:33","1. Se va accesara pagina : https://comenzi.bebetei.ro/
+2. Se va da click pe ""Contul meu""
+3. Se vor introduce restul de date pentru crearea unui nou cont.
+","1. 
+2. Adresa de email
+3. Nume si parola.
+","1. Se va deschide pagina farmaciei.
+2. Se va deschide pagina pentru introducerea adresei de email.
+3. Contul va fi creat cu succes.
+","1. Passed
+2. Passed
+3. Passed
+",,Medium,Normal,"Not automated",Regression,,"1. 
+2. 
+3. ",
+8,"Efectuarea unei comenzi",Regression,1,"Andreea-Alexandra Vintilescu",119959,Passed,"2022-09-11 20:46:22","1. Se va accesa pagina farmaciei.
+2. Se vor cauta produsele dorite prin intermediul casetei de cautari din susul paginii.
+3. Se vor introduce in cos produsele dorite.
+4. Se va accesa sectiunea "" Cosul meu"" pentru efectuarea comenzii.
+5. Se va apasa butonul de "" Cumpara""
+6. Se va seta metoda de livrare, de plata, precum si datele de facturare.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. Date personale
+","1. Pagina se va deschide.
+2. Produsele vor putea fi cautate.
+3. Produsele vor fi adaugate.
+4. Se vor afisa produsele din cosul de cumparaturi.
+5. Se vor afisa detaliile comenzii.
+6. Produsele vor putea fi comandate cu succes.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+",,High,Blocker,"Not automated",Regression,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. ",
+2,"Activare cont",Regression,1,"Andreea-Alexandra Vintilescu",8439,Passed,"2022-09-11 20:44:37","1. Se va accesa link-ul primit pe email-ul introdus în primul pas.
+","1. www.gmail.com
+","1. Contul va fi activat cu succes.
+","1. Passed
+",,High,Blocker,"Not automated",Regression,,"1. ",
+10,"Schimbarea parolei.",Regression,1,"Andreea-Alexandra Vintilescu",1815000,Failed,"2022-09-11 20:44:28","1. Din pagina principala se va selecta "" Contul meu""
+2. In partea din stanga a paginii, in sectiunea "" Datele mele"", se va apasa butonul "" Setari cont""
+3. Se va seta o noua parola
+","1. 
+2. 
+3. 
+","1. Pagina va fi rulata.
+2. Se va deschide pagina, iar casetele necesare vor trebui completate.
+3. Parola sa fie schimbata.
+","1. Passed
+2. Passed
+3. Failed
+","Nu a putut fi modificata parola.",High,Critical,"Not automated",Regression,,"1. 
+2. 
+3. ",
+3,Autentificare,Regression,1,"Andreea-Alexandra Vintilescu",113425,Passed,"2022-09-11 20:48:18","1. Se va accesa pagina de autentificare
+2. Se vor introduce datele pe baza carora a fost creat contul.
+3. Se va apata butonul de "" Conectare""
+","1. 
+2. email & parola
+3. 
+","1. Se va deschide pagina de autentificare
+2. Datele vor conicide cu cele setate.
+3. Autentificarea va ava loc cu succes.
+","1. Passed
+2. Passed
+",,High,Blocker,"Not automated",Regression,,"1. 
+2. ",
+4,"Adaugarea unei adrese de livrare",Regression,1,"Andreea-Alexandra Vintilescu",16453,Passed,"2022-09-11 20:48:40","1. Din pagina principala se va accesa "" Contul meu""
+2. In sectiunea "" Adresele mele"" situata in partea stanga a paginii, se va accesa "" Adrese livrare""
+3. Se va apara butonul de "" Adauga""
+4. Se vor introduce datele necesare pentru facturarea viitoarelor comenzi.
+","1. 
+2. 
+3. 
+4. Nume, prenume, telefon, tara, judet, oras, strada si numar, cod postal
+","1. Se va deschide pagina contului.
+2. Pagina va fi deschisa.
+3. Va functiona.
+4. Datele vor fi salvate cu succes.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+",,High,Major,"Not automated",Regression,,"1. 
+2. 
+3. 
+4. ",
+5,"Adaugarea unui produs la favorite",Regression,1,"Andreea-Alexandra Vintilescu",5673,Passed,"2022-09-11 20:48:47","1. Se va accesa pagina de produse a farmaciei.
+2. Se va alge categoria dorita de produse.
+3. Din cadrul acesteia, se va alege o alta subcategorie de produse.
+4. Se va accesa pagina cu produsele in cauza.
+5. Se va apasa iconita "" ♡ "" pentru introducerea produsului in lista de preferinte.
+","1. 
+2. 
+3. 
+4. 
+5. 
+","1. 
+2. Sectiunea poate fi accesata.
+3. Se ve deschide pop-ul subcategoriilor principale.
+4. Produsele vor fi listate.
+5. Iconita "" ♡ "" se va umple, devenind astfel "" ♥ "", iar produsul va putea fi adaugat in lista de preferinte.
+","1. Passed
+2. Passed
+",,Low,Minor,"Not automated",Regression,,"1. 
+2. ",
+6,"Stergerea unui produs din sectiunea "" Favorite""",Regression,1,"Andreea-Alexandra Vintilescu",102142,Passed,"2022-09-11 20:51:13","1. Se va accesa pagina principala a farmaciei.
+2. Din partea dreapta a header-ului se va apasa pe butonul "" Favorite"".
+3. Se va deschide pagina cu lista de produse ce au fost clasificate ca favorite.
+4. In stanga produsului aflat in lista de produse preferate, se va apasa pe iconita "" 🗑️ "" pentru a putea fi sters prodsul din lista.
+","1. 
+2. 
+3. 
+4. 
+","1. Se ve deschide pagina principala.
+2. Butonul va putea fi apasat.
+3. Se va afisa lista cu produsele preferate.
+4. Se va putea apasa iconita "" 🗑️"" , iar produsul va putea fi sters.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+",,Low,Minor,"Not automated",Regression,,"1. 
+2. 
+3. 
+4. ",
+7,"Adaugarea unui produs in cos",Regression,1,"Andreea-Alexandra Vintilescu",67061,Passed,"2022-09-11 20:52:34","1. Se va accesa sectiunea de produse a paginii sau se va cauta produsul cu ajutorul barei de cautari.
+2. Sa vor afisa toate rezultatele bazate pe datele cerute de utilizator
+3. Se va selecta produsul dorit.
+4. Se va selecta cantitatea dorita.
+5. Se va apasa iconita cosului de cumparaturi "" 🛒 "" .
+6. Din header-ul paginiii se va verifica sectiunea "" Cosul meu"" pentru a verifica daca produsul se afla in cos.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. Sectiunea va putea fi rulata.
+2. Produsele vor fi afisate.
+3. Pagina cu produsul selectat se va deschide.
+4. Cantitatea dorita va fi afisata corect.
+5. Iconita va putea fi apasata iar produsul va putea fi adaugat in cosul de cumparaturi
+6. Produsul selectat se afla in cosul de cumparaturi.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+",,High,Blocker,"Not automated",Regression,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. ",
+9,"Vizualizare comenzi efectuate",Regression,1,"Andreea-Alexandra Vintilescu",1220000,Failed,"2022-09-11 20:54:00","1. Se va deschide pagina principala a farmaciei.
+2. Se va apasa butonul "" Contul meu""
+3. In sectiunea "" Activitatea mea"" se va selecta "" Comenzile mele""
+","1. 
+2. 
+3. 
+","1. 
+2. Pagina se va deschide.
+3. Se vor afisa comenzile efectuate anterior.
+","1. Passed
+2. Passed
+3. Failed
+","Produsele comandate anterior vor aparea in sectiunea "" Comenzile mele"" dupa ce acestea vor fi livrate la adresa stabilita din datele de contact ale cumparatorului.",Medium,Normal,"Not automated",Regression,,"1. 
+2. 
+3. ",
