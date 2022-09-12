@@ -1,0 +1,4 @@
+id,title,test case id,author,assignee,actual result,status,milestone,severity,external issues,attachments,tags
+3,Vizualizare comenzi efectuate-v2,WAT-9,Andreea-Alexandra Vintilescu,Unassigned,"Dupa multiple incercari de a accesa pagina de vizualizare a comenzilor efectuate, se va afisa un mesaj de eroare care afirma faptul ca nu se pot vizualiza comenzile efectuate anterior.",Open,,Major,,,
+2,Vizualizare comenzi efectuate,WAT-9,Andreea-Alexandra Vintilescu,Unassigned,Redirectionarea din mai multe incercari catre pagina de vizualizare a comenzilor efectuate.,In progress,,Major,,,
+1,Schimbarea parolei,WAT-10,Andreea-Alexandra Vintilescu,Unassigned,"Parola nu a fost schimbata cu succes, iar orice parola am introduce ni se afiseaza un mesaj de atentinare : "" Noua parola nu trebuie sa coincida cu vechea parola. """,Resolved,,Major,,,
